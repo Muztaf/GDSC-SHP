@@ -8,7 +8,7 @@
     <title>Student Login</title>
     <style>
       body{
-        overflow: hidden;
+        overflow-x: hidden;
       }
       h1{
         overflow: hidden;
@@ -18,7 +18,7 @@
 
 <body>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,68 +28,68 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                <a class="text-white nav-link active" aria-current="page" href="./home.html">Home</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
+                <a class="text-white nav-link" href="./about.html">About</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./placement.html">Placements</a>
+                <a class="text-white nav-link" href="./placement.html">Placements</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./profile.html">Profile</a>
+                <a class="text-white nav-link" href="./profile.html">Profile</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Logout</a>
-              </li>
+                <a style="position:relative; left: 65rem; background-color: blueviolet;" class="text-white nav-link" href="#">Logout</a>
+            </li>
 
             </ul>
           </div>
         </div>
       </nav>
 
-      <h1>Profile Settings</h1>
+      <h1 style="position: relative; left: 33rem; font-size: 50px;font-weight: 400;">Profile Settings</h1>
 
-      <form>
-        <div class="form-group">
+      <form class="col-8" style="margin: 2rem 20rem;">
+        <div class="form-group" style="margin-top: 2rem;">
           <label for="exampleInputEmail1">Name</label>
           <input class="form-control" placeholder="first name">
         </div>
-        <div class="form-group">
+        <div class="form-group" style="margin-top: 2rem;">
             <label for="exampleInputEmail1">Surname</label>
             <input class="form-control" placeholder="surname">
         </div>
-        <div class="form-group">
+        <div class="form-group" style="margin-top: 2rem;">
             <label for="exampleInputEmail1">Address Line 1</label>
             <input class="form-control" placeholder="enter address line 1">
         </div>
-        <div class="form-group">
+        <div class="form-group" style="margin-top: 2rem;">
             <label>Address Line 2</label>
             <input class="form-control"placeholder="enter address line 2">
         </div>
-        <div class="form-group">
+        <div class="form-group" style="margin-top: 2rem;">
             <label for="exampleInputEmail1">State</label>
             <input class="form-control" placeholder="State">
         </div>
-        <div class="form-group">
+        <div class="form-group" style="margin-top: 2rem;" >
             <label for="exampleInputEmail1">Area</label>
             <input class="form-control" placeholder="Area">
         </div>
-        <div class="form-group">
+        <div class="form-group" style="margin-top: 2rem;" >
           <label for="exampleInputEmail1">Email address</label>
           <input class="form-control" placeholder="Enter email">
         </div>
 
-        <div class="form-group">
+        <div class="form-group" style="margin-top: 2rem;" >
             <label for="exampleInputEmail1">Education</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="education">
         </div>
 
-        <button type="submit" class="btn btn-primary">Save profile</button>
+        <button type="submit" class="btn btn-primary" style="position: relative; left: 22rem; margin: 30px;">Save profile</button>
       </form>
 
 </body>
